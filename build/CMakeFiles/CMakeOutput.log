@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/bob/code/MAVSDK-suny/bui
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e40d0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e40d0.dir/build.make CMakeFiles/cmTC_e40d0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9d207/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d207.dir/build.make CMakeFiles/cmTC_9d207.dir/build
 make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e40d0.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e40d0.dir/testCCompiler.c.o   -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_e40d0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e40d0.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e40d0.dir/testCCompiler.c.o  -o cmTC_e40d0 
+Building C object CMakeFiles/cmTC_9d207.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9d207.dir/testCCompiler.c.o   -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9d207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d207.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9d207.dir/testCCompiler.c.o  -o cmTC_9d207 
 make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ffc35/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ffc35.dir/build.make CMakeFiles/cmTC_ffc35.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cf9b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf9b8.dir/build.make CMakeFiles/cmTC_cf9b8.dir/build
 make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ffc35.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ffc35.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ffc35
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc35.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ffc35.dir/CMakeCCompilerABI.c.o  -o cmTC_ffc35 
+Building C object CMakeFiles/cmTC_cf9b8.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cf9b8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_cf9b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf9b8.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_cf9b8.dir/CMakeCCompilerABI.c.o  -o cmTC_cf9b8 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper
@@ -59,9 +59,9 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu/Linaro 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/7/../../../../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc/arm-linux-gnueabihf/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ffc35' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
- /usr/lib/gcc/arm-linux-gnueabihf/7/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccioraE4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_ffc35 /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/Scrt1.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/7/crtbeginS.o -L/usr/lib/gcc/arm-linux-gnueabihf/7 -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../.. CMakeFiles/cmTC_ffc35.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-linux-gnueabihf/7/crtendS.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ffc35' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf9b8' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/7/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJnDZvh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_cf9b8 /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/Scrt1.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/7/crtbeginS.o -L/usr/lib/gcc/arm-linux-gnueabihf/7 -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../.. CMakeFiles/cmTC_cf9b8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-linux-gnueabihf/7/crtendS.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf9b8' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
 make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ffc35/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ffc35.dir/build.make CMakeFiles/cmTC_ffc35.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cf9b8/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cf9b8.dir/build.make CMakeFiles/cmTC_cf9b8.dir/build]
   ignore line: [make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ffc35.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_ffc35.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ffc35]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc35.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ffc35.dir/CMakeCCompilerABI.c.o  -o cmTC_ffc35 ]
+  ignore line: [Building C object CMakeFiles/cmTC_cf9b8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_cf9b8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_cf9b8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf9b8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_cf9b8.dir/CMakeCCompilerABI.c.o  -o cmTC_cf9b8 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu/Linaro 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/7/../../../../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc/arm-linux-gnueabihf/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ffc35' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/7/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccioraE4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_ffc35 /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/Scrt1.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/7/crtbeginS.o -L/usr/lib/gcc/arm-linux-gnueabihf/7 -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../.. CMakeFiles/cmTC_ffc35.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-linux-gnueabihf/7/crtendS.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cf9b8' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/7/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJnDZvh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_cf9b8 /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/Scrt1.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/7/crtbeginS.o -L/usr/lib/gcc/arm-linux-gnueabihf/7 -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../.. CMakeFiles/cmTC_cf9b8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-linux-gnueabihf/7/crtendS.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crtn.o]
     arg [/usr/lib/gcc/arm-linux-gnueabihf/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccioraE4.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJnDZvh.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -113,7 +113,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ffc35] ==> ignore
+    arg [cmTC_cf9b8] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crti.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/7/crtbeginS.o] ==> ignore
@@ -125,7 +125,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/arm-linux-gnueabihf/7/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/7/../../..]
-    arg [CMakeFiles/cmTC_ffc35.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_cf9b8.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,14 +157,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_23d22/fast"
-/usr/bin/make -f CMakeFiles/cmTC_23d22.dir/build.make CMakeFiles/cmTC_23d22.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bbf0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbf0a.dir/build.make CMakeFiles/cmTC_bbf0a.dir/build
 make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_23d22.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_23d22.dir/feature_tests.c.o   -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_23d22
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d22.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_23d22.dir/feature_tests.c.o  -o cmTC_23d22 
+Building C object CMakeFiles/cmTC_bbf0a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_bbf0a.dir/feature_tests.c.o   -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bbf0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbf0a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bbf0a.dir/feature_tests.c.o  -o cmTC_bbf0a 
 make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
 
 
@@ -177,14 +177,14 @@ make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_831b9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_831b9.dir/build.make CMakeFiles/cmTC_831b9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1fa70/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fa70.dir/build.make CMakeFiles/cmTC_1fa70.dir/build
 make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_831b9.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_831b9.dir/feature_tests.c.o   -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_831b9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_831b9.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_831b9.dir/feature_tests.c.o  -o cmTC_831b9 
+Building C object CMakeFiles/cmTC_1fa70.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_1fa70.dir/feature_tests.c.o   -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1fa70
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fa70.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1fa70.dir/feature_tests.c.o  -o cmTC_1fa70 
 make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
 
 
@@ -197,14 +197,14 @@ make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_515ec/fast"
-/usr/bin/make -f CMakeFiles/cmTC_515ec.dir/build.make CMakeFiles/cmTC_515ec.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5086d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5086d.dir/build.make CMakeFiles/cmTC_5086d.dir/build
 make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_515ec.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_515ec.dir/feature_tests.c.o   -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_515ec
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_515ec.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_515ec.dir/feature_tests.c.o  -o cmTC_515ec 
+Building C object CMakeFiles/cmTC_5086d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_5086d.dir/feature_tests.c.o   -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5086d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5086d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5086d.dir/feature_tests.c.o  -o cmTC_5086d 
 make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
 
 
@@ -215,28 +215,28 @@ make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_42e47/fast"
-/usr/bin/make -f CMakeFiles/cmTC_42e47.dir/build.make CMakeFiles/cmTC_42e47.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_255ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_255ac.dir/build.make CMakeFiles/cmTC_255ac.dir/build
 make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_42e47.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_42e47.dir/testCXXCompiler.cxx.o -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_42e47
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42e47.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_42e47.dir/testCXXCompiler.cxx.o  -o cmTC_42e47 
+Building CXX object CMakeFiles/cmTC_255ac.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_255ac.dir/testCXXCompiler.cxx.o -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_255ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_255ac.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_255ac.dir/testCXXCompiler.cxx.o  -o cmTC_255ac 
 make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_07173/fast"
-/usr/bin/make -f CMakeFiles/cmTC_07173.dir/build.make CMakeFiles/cmTC_07173.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ac031/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac031.dir/build.make CMakeFiles/cmTC_ac031.dir/build
 make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_07173.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_07173.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_07173
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07173.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_07173.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_07173 
+Building CXX object CMakeFiles/cmTC_ac031.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ac031.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ac031
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac031.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_ac031.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ac031 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper
@@ -246,9 +246,9 @@ Thread model: posix
 gcc version 7.4.0 (Ubuntu/Linaro 7.4.0-1ubuntu1~18.04.1) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/7/../../../../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc/arm-linux-gnueabihf/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_07173' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
- /usr/lib/gcc/arm-linux-gnueabihf/7/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAgyP7q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_07173 /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/Scrt1.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/7/crtbeginS.o -L/usr/lib/gcc/arm-linux-gnueabihf/7 -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../.. CMakeFiles/cmTC_07173.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/7/crtendS.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_07173' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ac031' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/7/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmVeIqZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_ac031 /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/Scrt1.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/7/crtbeginS.o -L/usr/lib/gcc/arm-linux-gnueabihf/7 -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../.. CMakeFiles/cmTC_ac031.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/7/crtendS.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ac031' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
 make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
 
 
@@ -256,14 +256,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_07173/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_07173.dir/build.make CMakeFiles/cmTC_07173.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ac031/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ac031.dir/build.make CMakeFiles/cmTC_ac031.dir/build]
   ignore line: [make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_07173.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_07173.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_07173]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07173.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_07173.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_07173 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_ac031.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_ac031.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_ac031]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac031.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_ac031.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ac031 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper]
@@ -273,13 +273,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.4.0 (Ubuntu/Linaro 7.4.0-1ubuntu1~18.04.1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/7/:/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/7/../../../../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc/arm-linux-gnueabihf/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_07173' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/7/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAgyP7q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_07173 /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/Scrt1.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/7/crtbeginS.o -L/usr/lib/gcc/arm-linux-gnueabihf/7 -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../.. CMakeFiles/cmTC_07173.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/7/crtendS.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ac031' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/7/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmVeIqZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_ac031 /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/Scrt1.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/7/crtbeginS.o -L/usr/lib/gcc/arm-linux-gnueabihf/7 -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/7/../../.. CMakeFiles/cmTC_ac031.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/7/crtendS.o /usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crtn.o]
     arg [/usr/lib/gcc/arm-linux-gnueabihf/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccAgyP7q.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmVeIqZ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -300,7 +300,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_07173] ==> ignore
+    arg [cmTC_ac031] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/7/../../../arm-linux-gnueabihf/crti.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/7/crtbeginS.o] ==> ignore
@@ -312,7 +312,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/arm-linux-gnueabihf/7/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/7/../../..]
-    arg [CMakeFiles/cmTC_07173.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ac031.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -340,14 +340,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c57a3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c57a3.dir/build.make CMakeFiles/cmTC_c57a3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6dddb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6dddb.dir/build.make CMakeFiles/cmTC_6dddb.dir/build
 make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c57a3.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c57a3.dir/feature_tests.cxx.o -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c57a3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c57a3.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c57a3.dir/feature_tests.cxx.o  -o cmTC_c57a3 
+Building CXX object CMakeFiles/cmTC_6dddb.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_6dddb.dir/feature_tests.cxx.o -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6dddb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dddb.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6dddb.dir/feature_tests.cxx.o  -o cmTC_6dddb 
 make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
 
 
@@ -413,14 +413,14 @@ make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_95e0f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_95e0f.dir/build.make CMakeFiles/cmTC_95e0f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7803d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7803d.dir/build.make CMakeFiles/cmTC_7803d.dir/build
 make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_95e0f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_95e0f.dir/feature_tests.cxx.o -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_95e0f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95e0f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_95e0f.dir/feature_tests.cxx.o  -o cmTC_95e0f 
+Building CXX object CMakeFiles/cmTC_7803d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_7803d.dir/feature_tests.cxx.o -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7803d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7803d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_7803d.dir/feature_tests.cxx.o  -o cmTC_7803d 
 make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
 
 
@@ -486,14 +486,14 @@ make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0a7d7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0a7d7.dir/build.make CMakeFiles/cmTC_0a7d7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cbc53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cbc53.dir/build.make CMakeFiles/cmTC_cbc53.dir/build
 make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0a7d7.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_0a7d7.dir/feature_tests.cxx.o -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0a7d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a7d7.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0a7d7.dir/feature_tests.cxx.o  -o cmTC_0a7d7 
+Building CXX object CMakeFiles/cmTC_cbc53.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_cbc53.dir/feature_tests.cxx.o -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cbc53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbc53.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_cbc53.dir/feature_tests.cxx.o  -o cmTC_cbc53 
 make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
 
 
@@ -559,14 +559,14 @@ make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d117d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d117d.dir/build.make CMakeFiles/cmTC_d117d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_313b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_313b3.dir/build.make CMakeFiles/cmTC_313b3.dir/build
 make[1]: Entering directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d117d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_d117d.dir/feature_tests.cxx.o -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d117d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d117d.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d117d.dir/feature_tests.cxx.o  -o cmTC_d117d 
+Building CXX object CMakeFiles/cmTC_313b3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_313b3.dir/feature_tests.cxx.o -c /home/bob/code/MAVSDK-suny/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_313b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_313b3.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_313b3.dir/feature_tests.cxx.o  -o cmTC_313b3 
 make[1]: Leaving directory '/home/bob/code/MAVSDK-suny/build/CMakeFiles/CMakeTmp'
 
 
