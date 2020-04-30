@@ -1,0 +1,3 @@
+/home/bob/code/MAVSDK-suny/build/CMakeFiles/rebuild_cache.dir
+/home/bob/code/MAVSDK-suny/build/CMakeFiles/MAVLink_connection.dir
+/home/bob/code/MAVSDK-suny/build/CMakeFiles/edit_cache.dir
