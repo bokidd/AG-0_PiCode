@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+<!--- ## Welcome to GitHub Pages
 
 ##You can use the [editor on GitHub](https://github.com/bokidd/AG-0_PiCode/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -35,7 +35,7 @@
 ### Support or Contact
 
 ##Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+-->
 
-```markdown
-# This is an initial commit. We are pursuing alternative options for distributing this information and will update this page as time continues!
-```
+This is an initial commit. We are pursuing alternative options for distributing this information and will update this page as time continues!
+
